@@ -17,12 +17,12 @@
     <h1>
       <div style="display: flex; justify-content: center; align-items: center">
         <p>功德：</p>
-        <bottonb id="dz" onclick="dianzan()">100</bottonb>
+        <bottonb id="dz" onclick="dianzan()">1</bottonb>
         <script>
           function dianzan() {
             let dianzanshubiaoqian = window.document.getElementById("dz");
             let dianzanshu = parseInt(dianzanshubiaoqian.innerText);
-            let xinshuju = dianzanshu + 100;
+            let xinshuju = dianzanshu + 1;
             dianzanshubiaoqian.innerText = xinshuju;
             return
           }
